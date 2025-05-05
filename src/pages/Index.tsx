@@ -1,7 +1,6 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
-import Icon from "@/components/ui/Icon";
+import Icon from "@/components/ui/icon";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -249,7 +248,7 @@ const Index = () => {
           </div>
           <Separator className="my-8 bg-gray-800" />
           <div className="text-center text-gray-500">
-            © 2025 ЮристПро. Все права защищены.
+            &copy; 2025 ЮристПро. Все права защищены.
           </div>
         </div>
       </footer>
